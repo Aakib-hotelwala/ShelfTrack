@@ -1,0 +1,36 @@
+# --------------------
+# FRONTEND & BACKEND
+# --------------------
+node_modules/
+dist/
+build/
+.env
+.env.*.local
+
+# --------------------
+# FRONTEND-SPECIFIC
+# --------------------
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# --------------------
+# BACKEND-SPECIFIC
+# --------------------
+backend/node_modules/
+backend/dist/
+backend/.env
+backend/logs/
+backend/*.log
+
+# --------------------
+# EDITORS / OS
+# --------------------
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
